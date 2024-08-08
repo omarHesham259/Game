@@ -9,7 +9,6 @@ public class PlayerMotor : MonoBehaviour
   private Vector3 PlayerVelocity;
 
   public float Speed  = 5;
-    float speed;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +28,6 @@ public class PlayerMotor : MonoBehaviour
         moveDirection.z = Input.y;
         controller.Move(transform.TransformDirection(moveDirection) * Speed* Time.deltaTime);
     }
-    // move21
+   
     // branch b 
 }
