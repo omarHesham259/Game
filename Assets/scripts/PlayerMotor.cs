@@ -9,7 +9,7 @@ public class PlayerMotor : MonoBehaviour
   private Vector3 PlayerVelocity;
 
   public float Speed  = 5;
-    int move;
+    int y;
     // Start is called before the first frame update
     void Start()
     {
